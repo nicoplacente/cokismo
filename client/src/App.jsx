@@ -2,7 +2,7 @@ import SectionContainer from "./components/SectionContainer";
 import Ruleta from "./components/Ruleta";
 import Hero from "./components/Hero";
 import SocialButtons from "./components/SocialButtons";
-import { Youtube, Ig } from "./components/icons/icons";
+import { Youtube, Ig, Portfolio } from "./components/icons/icons";
 
 const redes = [
   {
@@ -15,12 +15,16 @@ const redes = [
     link: "https://www.instagram.com/nicoplacente/",
     label: "Instagram de Nico",
   },
+  {
+    icon: <Portfolio />,
+    link: "https://nicoplacente.netlify.app/",
+    label: "Portfolio de Nico",
+  },
 ];
 
 export default function App() {
   return (
-    // <main className="overflow-x-hidden">
-    <main>
+    <main className="overflow-x-hidden">
       <SectionContainer classname="hero-img">
         <Hero />
       </SectionContainer>
