@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Montserrat;
+  src: url("/fonts/Montserrat-Regular.woff2");
+}
+
+body {
+  font-family: Montserrat;
+  @apply bg-fondo text-white;
+}
+
+:root {
+  --claro: #255784;
+  --oscuro: #2196f3;
+  --fondo: #031321;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--oscuro) var(--fondo);
+}
+
+#button {
+  padding: 12px 30px;
+  color: #fff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  margin: 25px 0;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  color: var(--oscuro);
+}
+
+#button:hover {
+  color: var(--claro);
+  background-color: var(--oscuro);
+  box-shadow: 0 0 10px var(--oscuro), 0 0 40px var(--oscuro),
+    0 0 80px var(--oscuro);
+}
+
+.titulo {
+  text-shadow: 0 0 5px var(--oscuro), 0 0 20px var(--oscuro);
+}
+
+.hero-img {
+  background: linear-gradient(45deg, #000, #000a),
+    url("/fotos/c0ker-hero.webp") no-repeat;
+  background-size: cover;
+}
