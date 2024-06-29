@@ -5,10 +5,13 @@ import Button from "./Button";
 import Swal from "sweetalert2";
 
 const data = [
-  { option: "Match", style: { backgroundColor: "#f00", textColor: "black" } },
+  {
+    option: "Match en el colegio",
+    style: { backgroundColor: "#f00", textColor: "black" },
+  },
   { option: "Beso o cachetada", style: { backgroundColor: "#f90" } },
   { option: "Para ti de seguidores", style: { backgroundColor: "#ff0" } },
-  { option: "TikTok", style: { backgroundColor: "#0a0" } },
+  { option: "TikToks del chat", style: { backgroundColor: "#0a0" } },
   { option: "Coco Elige", style: { backgroundColor: "#00f" } },
   { option: "Qcy juli ta re linda", style: { backgroundColor: "#92f" } },
   {
@@ -17,9 +20,24 @@ const data = [
   },
   { option: "Juli elige", style: { backgroundColor: "#f90" } },
   { option: "El chat elige", style: { backgroundColor: "#ff0" } },
-  { option: "Discord con seguidores", style: { backgroundColor: "#0a0" } },
-  { option: "Contar anecdotas", style: { backgroundColor: "#00f" } },
+  { option: "Clínica del chamuyo", style: { backgroundColor: "#0a0" } },
+  { option: "Rección a near death", style: { backgroundColor: "#00f" } },
   { option: "UPD y milipilis", style: { backgroundColor: "#92f" } },
+  {
+    option: "Ping Pong con sexto",
+    style: { backgroundColor: "#f00", textColor: "black" },
+  },
+  { option: "Coge o no coge", style: { backgroundColor: "#f90" } },
+  {
+    option: "10 burpees y tirar de nuevo ",
+    style: { backgroundColor: "#ff0" },
+  },
+  { option: "Sale timbaaa", style: { backgroundColor: "#0a0" } },
+  { option: "Apagar stream", style: { backgroundColor: "#00f" } },
+  {
+    option: "Decir que sos gay y volver a tirar",
+    style: { backgroundColor: "#92f" },
+  },
 ];
 
 export default function Ruleta() {
