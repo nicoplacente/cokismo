@@ -30,7 +30,7 @@ export default function App() {
       </SectionContainer>
       <SectionContainer classname="relative">
         <Ruleta />
-        <footer className="bg-hover w-full flex flex-col gap-4 p-4 sm:p-12 bottom-0 absolute">
+        <footer className="bg-hover w-full flex flex-col gap-4 p-4 bottom-0 absolute">
           <h4 className="text-center text-balance">Seguime en mis redes</h4>
           <ul className="flex gap-6 justify-center">
             {redes.map((red, index) => (

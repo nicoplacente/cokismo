@@ -32,8 +32,9 @@ const redes = [
 export default function Hero() {
   return (
     <header className="w-full h-full flex flex-col justify-between">
-      <h1 className="titulo text-3xl text-center text-white text-balance my-6 font-bold tracking-wide">
-        Aguante el Cokismo y la Timba
+      <h1 className="titulo text-3xl text-center text-white text-balance flex flex-col gap-4 my-6 font-bold tracking-wide">
+        Hola Youtube
+        <span className="text-txt text-xl">Aguante el Cokismo y la Timba</span>
       </h1>
 
       <ul className="flex gap-6 justify-center">

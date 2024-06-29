@@ -46,7 +46,12 @@ body {
 }
 
 .hero-img {
-  background: linear-gradient(45deg, #000, #000a),
+  background: linear-gradient(45deg, #000, #0005),
     url("/fotos/c0ker-hero.webp") no-repeat;
   background-size: cover;
+}
+
+.section-height {
+  height: 100dvh;
+  min-height: 100vh;
 }
