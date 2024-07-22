@@ -53,5 +53,5 @@ body {
 
 .section-height {
   height: 100vh;
-  height: 100dvh;
+  /* height: 100dvh; */
 }
