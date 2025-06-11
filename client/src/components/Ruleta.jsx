@@ -53,7 +53,7 @@ export default function Ruleta() {
   };
 
   return (
-    <>
+    <div className="flex flex-col items-center">
       <h2 className="titulo  text-2xl sm:text-3xl my-6 font-bold tracking-wide">
         Ruleta de Contenido
       </h2>
@@ -79,6 +79,6 @@ export default function Ruleta() {
       <Button ariaLabel="Girar ruleta" click={handleSpinClick}>
         Girar
       </Button>
-    </>
+    </div>
   );
 }
